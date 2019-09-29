@@ -1,7 +1,7 @@
 {
   "name": "serverless-fullstack-starter",
   "version": "1.0.0",
-  "author": "Pasquale Coretti",
+  "author": "Pasquale Coretti <pasquale.coret@gmail.com>",
   "private": true,
   "workspaces": [
     "packages/*"
