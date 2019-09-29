@@ -10,36 +10,5 @@ yarn quickInstall && yarn start
 
 This is enough to have the project up and running;
 
-## Single packages:
-
-### serverless/
-
-To install project:
-
-```
-yarn
-```
-
-To set up serverless:
-
-```
-sls create -t serverless.yml
-```
-
-To run the API:
-
-```
-sls offline
-```
-
-To run the single handler():
-
-```
-sls invoke local -f api
-```
-
-### client/
-
-```
-yarn && yarn start
-```
+fe: `http://localhost:3000`
+sls be: `http://localhost:8000`
