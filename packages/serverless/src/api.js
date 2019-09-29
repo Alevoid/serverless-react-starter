@@ -19,4 +19,4 @@ app.get("/:name", (req, res) => {
   });
 });
 
-export const api = http(app);
+export const serverless = http(app);

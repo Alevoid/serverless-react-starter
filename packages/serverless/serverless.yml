@@ -27,7 +27,7 @@ package:
 
 functions:
   api:
-    handler: handler.api
+    handler: src/api.serverless
     events:
       - http:
           method: GET
