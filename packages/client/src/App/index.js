@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import "./style.css";
-//
+
 function App() {
   const dispatch = useDispatch();
   const message = useSelector(state => state.message);

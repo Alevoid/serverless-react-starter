@@ -8,7 +8,7 @@ To install dependencies in packages and run fe and sls, just run:
 yarn quickInstall && yarn start
 ```
 
-This is enough to have the project app and running;
+This is enough to have the project up and running;
 
 ## Single packages:
 
