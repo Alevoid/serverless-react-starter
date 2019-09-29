@@ -1,0 +1,31 @@
+{
+  "name": "serverless-fullstack-starter",
+  "version": "1.0.0",
+  "author": "Pasquale Coretti",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "react + serverless (with webpack) starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"yarn start:client\" \"yarn start:serverless\"",
+    "quickInstall": "yarn && yarn install:client && yarn install:serverless",
+    "start:client": "yarn workspace client run start",
+    "start:serverless": "yarn workspace serverless run start",
+    "install:client": "yarn workspace client",
+    "install:serverless": "yarn workspace serverless"
+  },
+  "keywords": [
+    "lambda",
+    "serverless",
+    "serverless-webpack",
+    "serverless-offline",
+    "express",
+    "react"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  }
+}
