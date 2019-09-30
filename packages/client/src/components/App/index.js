@@ -9,11 +9,13 @@ import "./style.css";
 
 const App = () => {
   const dispatch = useDispatch();
-  const apiResponse = useSelector(state => state.message);
+  const apiResponse = useSelector(({ message }) => message);
 
   return (
     <div className="App">
-      <header className="App-header">React + Servless with Webpack</header>
+      <header className="App-header">
+        React + Serverless with Webpack and Express
+      </header>
       <section>
         <button
           className="App-button"
@@ -29,7 +31,6 @@ const App = () => {
           Call API
         </button>
       </section>
-
       {apiResponse && (
         <section>
           <div className="App-message">{apiResponse}</div>

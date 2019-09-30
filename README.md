@@ -1,8 +1,10 @@
 # serverless-fullstack-react-starter
 
+Starter for using Serverless [ with Webpack and Express ] and React.
+
 ## Install and Run:
 
-To install dependencies in packages and run fe and sls, just run:
+To install dependencies in all packages and run fe and sls, just run from the root folder:
 
 ```
 yarn quickInstall && yarn start
@@ -12,3 +14,5 @@ This is enough to have the project up and running;
 
 fe: `http://localhost:3000`
 sls be: `http://localhost:8000`
+
+Otherwise packages can be installed and run separately.
