@@ -18,7 +18,7 @@ const App = () => {
         <button
           className="App-button"
           onClick={async () => {
-            const url = getAPIRoute("/user");
+            const url = getAPIRoute("/greeting");
 
             dispatch({
               type: GET_MESSAGE,
@@ -29,6 +29,7 @@ const App = () => {
           Call API
         </button>
       </section>
+
       {apiResponse && (
         <section>
           <div className="App-message">{apiResponse}</div>

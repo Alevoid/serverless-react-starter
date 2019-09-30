@@ -3,19 +3,9 @@ import http from "serverless-http";
 
 const app = express();
 
-app.get("/", (req, res) => {
+app.get("/greeting", (req, res) => {
   res.json({
-    message: "Home"
-  });
-});
-
-app.get("/:name", (req, res) => {
-  const {
-    params: { name }
-  } = req;
-
-  res.json({
-    message: `A very ServerLess Welcome, my dear ${name}.`
+    message: `A very ServerLess Welcome, my dear user.`
   });
 });
 
