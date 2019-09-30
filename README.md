@@ -1,4 +1,4 @@
-# serverless-fullstack-react-starter
+# serverless-react-starter
 
 Starter for using Serverless [ with Webpack and Express ] and React.
 
