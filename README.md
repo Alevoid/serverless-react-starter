@@ -4,7 +4,7 @@ Starter for using Serverless [ with Webpack and Express ] and React.
 
 ## Install and Run:
 
-To install dependencies in all packages and run fe and sls, just run from the root folder:
+This is a monorepo: to quickly install dependencies in all packages and run fe and sls, just type from the root folder:
 
 ```
 yarn quickInstall && yarn start
